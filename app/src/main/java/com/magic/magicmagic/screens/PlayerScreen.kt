@@ -1,6 +1,5 @@
 package com.magic.magicmagic.screens
 
-import PlayerList
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -26,6 +25,6 @@ fun PlayerScreen() {
         }) {
             Text("Go to home")
         }
-        PlayerList()
+        //PlayerList()
     }
 }
