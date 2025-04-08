@@ -14,7 +14,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.magic.magicmagic.components.TopBar
 import com.magic.magicmagic.navigation.NavigationProvider
 import com.magic.magicmagic.ui.theme.MagicMagicTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
